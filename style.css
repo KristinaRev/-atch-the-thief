@@ -94,3 +94,34 @@ body {
     padding: 0;
   }
   
+
+  @media (max-width: 700px) {
+
+    body {
+      max-height: 100vh;
+      background-size: cover;
+    }
+
+    #board {
+      
+      height: 80vh;
+      width: 85%;
+      }
+
+  .character {
+    background: url('./assets/grandma.svg');
+    background-size: contain;
+    width: 96px;
+    height: 18vh;
+    padding: 2px;
+    margin: 2px;
+    
+  }
+  
+  .thief {
+    background: url('./assets/thief.svg');
+    background-size: contain;
+    width: 148px;
+  }
+      
+  }
